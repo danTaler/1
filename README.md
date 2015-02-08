@@ -9,9 +9,7 @@ Supported formats:
 For example:
 1. File 1:
       Mike:AVFDBHJYIFHMUILUIJNRTVWGTRH
-
       Mark:GRYJI&KTEYHEEFETHTJRIKE%^GE
-      
       Smith:GHJFRHYJKE^JTEGREHUWEJRJY
       Bendico:JKYKTYKUETJTYJEGDHAGHADH
       
