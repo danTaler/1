@@ -1,5 +1,10 @@
 # User-Hash-Convertor
-This script takes cracked hashes and user lists and formats them into 1 readable file.
+This script takes cracked hashes and user lists and formats them into one readable file.
+
+Supported formats:
+-NTDS (windows AD hashes)
+-LM
+-NTLM
 
 For example:
 1. File 1:
