@@ -1,7 +1,4 @@
 file_passwords = open('hash-password.txt', 'r')
-#file2_users = open('user-hash.txt', 'r')
-passwords = []
-count = 0
 
 for line in file_passwords:
         column = line.split(':')      
@@ -10,10 +7,6 @@ for line in file_passwords:
         
         column_hash_password_PASSWD = column[1]
         column_hash_password_PASSWD_Stripped = column_hash_password_PASSWD.strip('\r\n')
-
-        passwords.append(column_hash_password_PASSWD_Stripped)
-        count = count + 1
-        #print(column_hash_passwords)
 
         file_users = open('user-hash.txt', 'r')
 
@@ -35,8 +28,5 @@ for line in file_passwords:
               #  print("CCC"+column_users_hash_HASH_Stripped)
                 break
                 
-               
-print(passwords)
-
 file_passwords.close()      
 file_users.close()
