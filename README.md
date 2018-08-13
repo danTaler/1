@@ -19,7 +19,7 @@ File 3:
 
 
 
-Supported formats:
--NTDS (windows AD hashes)
--LM
--NTLM
+Supported Windows hashes::
+- NTDS (windows AD hashes)
+- LM
+- NTLM
