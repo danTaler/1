@@ -1,26 +1,25 @@
-# Username-WindowsHash-Password
-This script combines **Windows usernames**, **Windows hashes** and the corresponding **cracked passwords**. 
+# Username-WindowsHash-Password Combiner!
+This script combines **Windows usernames**, **Windows hashes** and the corresponding **cracked passwords** into a readable format:
+
+```<username>:<Hash>:<password>```
+
+
+Example:
+
+1. File 1:
+      ```John:ABCDBHJYIFHMUILUIJNRTVWGTRH```
+      
+2. File 2:
+      ``` ABCDBHJYIFHMUILUIJNRTVWGTRH:password123```
+
+      
+Result:
+File 3:
+    ```John:ABCDBHJYIFHMUILUIJNRTVWGTRH:password123```
+
 
 
 Supported formats:
 -NTDS (windows AD hashes)
 -LM
 -NTLM
-
-For example:
-1. File 1:
-      Mike:AVFDBHJYIFHMUILUIJNRTVWGTRH
-      Mark:GRYJI&KTEYHEEFETHTJRIKE%^GE
-      Smith:GHJFRHYJKE^JTEGREHUWEJRJY
-      Bendico:JKYKTYKUETJTYJEGDHAGHADH
-      
-2. File 2:
-      AVFDBHJYIFHMUILUIJNRTVWGTRH:password1
-      GRYJI&KTEYHEEFETHTJRIKE%^GE:Secr3t
-      JKYKTYKUETJTYJEGDHAGHADH:myPass123
-      
-Result:
-File 3:
-    Mike:AVFDBHJYIFHMUILUIJNRTVWGTRH:password1
-    Mark:GRYJI&KTEYHEEFETHTJRIKE%^GE:Secr3t
-    Bendico:JKYKTYKUETJTYJEGDHAGHADH:myPass123
