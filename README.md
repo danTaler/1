@@ -1,5 +1,6 @@
-# User-Hash-Convertor
-This script takes cracked hashes and user lists and formats them into one readable file.
+# Username-WindowsHash-Password
+This script combines **Windows usernames**, **Windows hashes** and the corresponding **cracked passwords**. 
+
 
 Supported formats:
 -NTDS (windows AD hashes)
